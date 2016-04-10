@@ -1,2 +1,2 @@
-# destroytoday_ebooks
+# destroy_ebooks
 destroytoday twitter bot
