@@ -41,6 +41,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    rake (10.4.2)
     redis (3.2.2)
     rufus-scheduler (3.2.0)
     simple_oauth (0.3.1)
@@ -76,6 +77,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rake
   twitter_ebooks
 
 BUNDLED WITH
