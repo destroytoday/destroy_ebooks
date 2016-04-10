@@ -10,7 +10,7 @@ class CloneBot < Ebooks::Bot
     @model ||= Ebooks::Model.load('model/destroytoday.model')
 
     scheduler.every '6h' do
-      tweet(model.make_statement)
+      tweet(@model.make_statement)
     end
   end
 end
